@@ -7,6 +7,7 @@ export default class Parent extends Component {
         this.state = {}
     }
 
+    //父组件定义的方法
     onClickSon = (msgFromSon) => {
         console.log(msgFromSon)
     }
