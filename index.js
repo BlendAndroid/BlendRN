@@ -4,6 +4,7 @@
 
 import {AppRegistry} from 'react-native';
 import {name as appName} from './app.json';
-import {RefTestParent} from "./base/RefTestParent";
+import ComponentApp from "./basics/component/ComponentApp";
 
-AppRegistry.registerComponent(appName, () => RefTestParent);
+
+AppRegistry.registerComponent(appName, () => ComponentApp);
