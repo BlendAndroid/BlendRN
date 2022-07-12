@@ -18,7 +18,7 @@ export class RefTestParent extends Component {
 
     render(): React.ReactNode {
         return <View>
-            <Text style={{frontSize: 100}} onPress={() => {
+            <Text style={{fontSize: 100}} onPress={() => {
                 // var size = this.refs.refTest.getSize();
                 var size = this.mRefTest.getSize();
                 this.setState({size: size});
