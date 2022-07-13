@@ -4,8 +4,7 @@
 
 import {AppRegistry} from 'react-native';
 import {name as appName} from './app.json';
-import StyleApp from "./basics/03_Style/StyleApp";
+import StateApp from "./basics/04_State/StateApp";
 
 
-
-AppRegistry.registerComponent(appName, () => StyleApp);
+AppRegistry.registerComponent(appName, () => StateApp);
