@@ -4,7 +4,7 @@
 
 import {AppRegistry} from 'react-native';
 import {name as appName} from './app.json';
-import StateApp from "./basics/04_State/StateApp";
+import NetworkImage from "./basics/05_image/NetworkImage";
 
 
-AppRegistry.registerComponent(appName, () => StateApp);
+AppRegistry.registerComponent(appName, () => NetworkImage);
