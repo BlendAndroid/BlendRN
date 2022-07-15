@@ -24,6 +24,11 @@ export default function ImagesIndex() {
                     }}
                     defaultSource={{uri: ICON_BASE64}}
                 />
+                <Image
+                    style={{width: 200, height: 200}}
+                    source={{uri: ICON_BASE64}}
+                    defaultSource={{uri: ICON_BASE64}}
+                />
             </ScrollView>
         </SafeAreaView>
     );
